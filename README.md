@@ -1,3 +1,4 @@
+I made this project during learning React and it can be a really good starter for an E-commerce website, hope you like it, follow me for more projects.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
