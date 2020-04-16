@@ -1,5 +1,5 @@
-I made this project during learning React and it can be a really good starter for an E-commerce website, hope you like it, follow me for more projects.
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+I made this project during learning React and it can be a really good starter for an E-commerce website, hope you like it, follow me for more projects, I deployed it on netlify, you can check it here https://react-phone-store-mh.netlify.app/   
+
 
 ## Available Scripts
 
