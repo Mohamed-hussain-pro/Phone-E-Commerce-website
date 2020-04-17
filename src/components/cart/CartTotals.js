@@ -1,11 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import PayPalButton from "./PaypalButton"
 
-export default function CartTotals({value}) {
+export default function CartTotals({value, history}) {
     const {id,cartSubTotal, cartTax, cartTotal, clearCart} = value;
     return (
         <React.Fragment>
-            <div className="container">
+            <div  style={{height:"25rem"}} className="container">
                 <div className="row">
                     <div className="col-10 mt-2 ml-sm-5 ml-md-auto col-sm-8 text-capitalize text-right">
                         <Link to ="/">
@@ -27,7 +28,9 @@ export default function CartTotals({value}) {
                                 <span className="text-title">total :</span>
                                 <strong>$ {cartTotal}</strong>
                             </h5>
-                            
+                            <PayPalButton total = {cartTotal} clearCart={clearCart} history={history} />
+                                 
+                           
                     </div>
                 </div>
             </div>

@@ -3,7 +3,7 @@ import Product from "./Product";
 import Title from "./Title"
 import {storeProducts} from "../data"
 import {ProductConsumer} from "../context";
-import Footer from "./Footer"
+
 export default class ProductList extends Component {
     render() {
       
@@ -29,7 +29,7 @@ export default class ProductList extends Component {
                     </div>
               
                  </div>
-                 <Footer />
+                 
             </React.Fragment>
            
              

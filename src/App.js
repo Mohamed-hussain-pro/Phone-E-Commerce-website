@@ -7,7 +7,8 @@ import ProductList from "./components/ProductList";
 import Default from "./components/Default";
 import Cart from "./components/cart";
 import Details from "./components/Details";
-import Model from "./components/Model"
+import Model from "./components/Model";
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
          <Route exact  component= {Default} />
         
        </Switch>
+       <Footer />
        <Model />
       
       </React-Fragment>

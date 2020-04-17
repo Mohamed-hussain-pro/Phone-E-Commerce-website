@@ -45,4 +45,8 @@ color:var(--mainDark) !important;
   color: var(--mainWhite) !important;
   font-size: 0.8rem;
   text-transform: capitalize;
+  position: static;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
