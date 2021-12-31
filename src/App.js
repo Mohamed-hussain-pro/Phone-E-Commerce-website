@@ -15,13 +15,15 @@ function App() {
   return (
       <React-Fragment>
        <Navbar />
-       <Switch>
-         <Route exact path="/" component= {ProductList} />
-         <Route exact path="/details" component= {Details} />
-         <Route exact path="/cart" component= {Cart} />
-         <Route exact  component= {Default} />
+       <main>
+        <Switch>
+          <Route exact path="/" component= {ProductList} />
+          <Route exact path="/details" component= {Details} />
+          <Route exact path="/cart" component= {Cart} />
+          <Route exact  component= {Default} />
         
-       </Switch>
+        </Switch>
+       </main>
        <Footer />
        <Model />
       
